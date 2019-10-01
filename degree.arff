@@ -1,0 +1,24 @@
+@relation degree
+
+@attribute Degree {associates,bachelors,masters,phd}
+@attribute Art/Science {art,science}
+@attribute Deans {yes,no}
+@attribute Response {'S.A.M.: Thats great! Sounds like you got it all figured out','S.A.M.: Keep working at it and im sure you will get there!','S.A.M.: Nice work, Your hard work will pay off!','S.A.M.: Im sure youll make deans list next semester!','S.A.M.: Thats awesome! Keep up the good work!','S.A.M.: Keep working and im sure youll make Deans list next time!','S.A.M.: Deans list in science? You must be wicked smart!','S.A.M.: Thats a bummer, keep working hard and im sure youll get there!','S.A.M.: Thats a huge accomplishment! Keep up the good work!','S.A.M.: Thats alright, im sure youll make deans list next semester!','S.A.M.: Making the deans list is a huge accomplishment! Keep it up!','S.A.M.: Don’t let that discourage you! Keep working hard!','S.A.M.: That’s great! A few more of those and youll graduate with high honors!','S.A.M.: Im sure youll do better next semester!','S.A.M.: Thats awesome! At this rate youll be a doctor in no time!','S.A.M.: Keep working at it! Im sure youll make deans list next time!'}
+
+@data
+associates,art,yes,'S.A.M.: Thats great! Sounds like you got it all figured out'
+associates,art,no,'S.A.M.: Keep working at it and im sure you will get there!'
+associates,science,yes,'S.A.M.: Nice work, Your hard work will pay off!'
+associates,science,no,'S.A.M.: Im sure youll make deans list next semester!'
+bachelors,art,yes,'S.A.M.: Thats awesome! Keep up the good work!'
+bachelors,art,no,'S.A.M.: Keep working and im sure youll make Deans list next time!'
+bachelors,science,yes,'S.A.M.: Deans list in science? You must be wicked smart!'
+bachelors,science,no,'S.A.M.: Thats a bummer, keep working hard and im sure youll get there!'
+masters,art,yes,'S.A.M.: Thats a huge accomplishment! Keep up the good work!'
+masters,art,no,'S.A.M.: Thats alright, im sure youll make deans list next semester!'
+masters,science,yes,'S.A.M.: Making the deans list is a huge accomplishment! Keep it up!'
+masters,science,no,'S.A.M.: Don’t let that discourage you! Keep working hard!'
+phd,art,yes,'S.A.M.: That’s great! A few more of those and youll graduate with high honors!'
+phd,art,no,'S.A.M.: Im sure youll do better next semester!'
+phd,science,yes,'S.A.M.: Thats awesome! At this rate youll be a doctor in no time!'
+phd,science,no,'S.A.M.: Keep working at it! Im sure youll make deans list next time!'

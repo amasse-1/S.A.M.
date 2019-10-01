@@ -1,0 +1,40 @@
+@relation weather
+
+@attribute outlook {sunny,rainy,windy,nice,cool,warm,cloudy,snowy}
+@attribute umbrella {no,yes}
+@attribute jacket {yes,no}
+@attribute Response {'S.A.M.: It must be a little cold outside then.','S.A.M.: Sounds beautiful outside.','S.A.M.: Sounds like you need an umbrella.','S.A.M.: Sounds ugly outside.','S.A.M.: The wind must be making it cold.','S.A.M.: Good idea with the umbrella.','S.A.M.: Sounds pretty nice out then.','S.A.M.: That does not sound like a good idea.','S.A.M.: Sounds nice out there then.','S.A.M.: Must look like its going to rain.','S.A.M.: Does not sound that nice out if you have both.','S.A.M.: Must be nice and a little chilly then.','S.A.M.: Sounds like a wonderful day.','S.A.M.: Sounds like its raining too. ','S.A.M.: A little cold out if you need a jacket','S.A.M.: Must be raining too.','S.A.M.: Sound like it is not that warm out.','S.A.M.: Probably not a good idea to have an umbrella.','S.A.M.: I do not think you need an umbrella.','S.A.M.: It does not sound too bad out.','S.A.M.: Must be raining outside.','S.A.M.: Sounds like dark clouds then.','S.A.M.: Sounds nice.','S.A.M.: Sounds like a nice day then.','S.A.M.: Sounds like a sun shower.','S.A.M.: You must have worn a rain jacket then.','S.A.M.: Sounds dangerous out there','S.A.M.: Must be a tropical storm.','S.A.M.: GO GET A JACKET YOU WILL FREEZE!','S.A.M.: You need a jacket not an umbrella.','S.A.M.: Good! You will need a jacket','S.A.M.: Get rid of the umbrella you do not need it.'}
+
+@data
+sunny,no,yes,'S.A.M.: It must be a little cold outside then.'
+sunny,no,no,'S.A.M.: Sounds beautiful outside.'
+sunny,yes,no,'S.A.M.: Sounds like you need an umbrella.'
+rainy,yes,yes,'S.A.M.: Sounds ugly outside.'
+windy,no,yes,'S.A.M.: The wind must be making it cold.'
+rainy,yes,no,'S.A.M.: Good idea with the umbrella.'
+windy,no,no,'S.A.M.: Sounds pretty nice out then.'
+rainy,no,no,'S.A.M.: That does not sound like a good idea.'
+nice,no,no,'S.A.M.: Sounds nice out there then.'
+cool,yes,no,'S.A.M.: Must look like its going to rain.'
+nice,yes,yes,'S.A.M.: Does not sound that nice out if you have both.'
+nice,no,yes,'S.A.M.: Must be nice and a little chilly then.'
+warm,no,no,'S.A.M.: Sounds like a wonderful day.'
+cloudy,yes,yes,'S.A.M.: Sounds like its raining too. '
+cloudy,no,yes,'S.A.M.: A little cold out if you need a jacket'
+cool,yes,yes,'S.A.M.: Must be raining too.'
+warm,no,yes,'S.A.M.: Sound like it is not that warm out.'
+windy,yes,no,'S.A.M.: Probably not a good idea to have an umbrella.'
+nice,yes,no,'S.A.M.: I do not think you need an umbrella.'
+cool,no,yes,'S.A.M.: It does not sound too bad out.'
+warm,yes,no,'S.A.M.: Must be raining outside.'
+cloudy,yes,no,'S.A.M.: Sounds like dark clouds then.'
+cool,no,no,'S.A.M.: Sounds nice.'
+cloudy,no,no,'S.A.M.: Sounds like a nice day then.'
+sunny,yes,yes,'S.A.M.: Sounds like a sun shower.'
+rainy,no,yes,'S.A.M.: You must have worn a rain jacket then.'
+windy,yes,yes,'S.A.M.: Sounds dangerous out there'
+warm,yes,yes,'S.A.M.: Must be a tropical storm.'
+snowy,no,no,'S.A.M.: GO GET A JACKET YOU WILL FREEZE!'
+snowy,yes,no,'S.A.M.: You need a jacket not an umbrella.'
+snowy,no,yes,'S.A.M.: Good! You will need a jacket'
+snowy,yes,yes,'S.A.M.: Get rid of the umbrella you do not need it.'
